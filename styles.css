@@ -1,17 +1,33 @@
 body {
-    font-size: 100px;
-    height: 100vh;
+    font-family: Arial, sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #f4f4f4;
+    align-items: center;
+    height: 100vh;
+    background-color: #EFEFEF;
 }
 
-.face {
-    cursor: pointer;
-    transition: 0.3s;
+.cara {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, border 0.3s;
 }
+
+.feliz {
+    background-color: #C0FFC0; /* Un fondo verde claro para la felicidad */
+    border: 1px solid #00A300; /* Un borde verde oscuro */
+}
+
+.triste {
+    background-color: #C0C0FF; /* Un fondo azul claro para la tristeza */
+    border: 1px solid #0000A3; /* Un borde azul oscuro */
+}
+
 .enfado {
-  background-color: #FFC0C0; /* Un fondo más rojizo para el enfado */
-  border: 1px solid #D43F00; /* Borde más oscuro */
+    background-color: #FFC0C0; /* Un fondo más rojizo para el enfado */
+    border: 1px solid #D43F00; /* Borde más oscuro */
 }
