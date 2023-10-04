@@ -11,3 +11,7 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
+.enfado {
+  background-color: #FFC0C0; /* Un fondo más rojizo para el enfado */
+  border: 1px solid #D43F00; /* Borde más oscuro */
+}
